@@ -24,11 +24,11 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://myworkspace.databricks.com
+      host: https://e2-demo-field-eng.cloud.databricks.com/
     variables:
-      warehouse_id: abcdef1234567890
-      catalog: main
-      schema: ${workspace.current_user.short_name}
+      warehouse_id: 30a9d22252d8e589
+      catalog: pkab_sandbox
+      schema: sandbox
 
   ## Optionally, there could be a 'staging' target here.
   ## (See Databricks docs on CI/CD at https://docs.databricks.com/dev-tools/bundles/ci-cd.html.)

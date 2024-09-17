@@ -11,7 +11,7 @@ resources:
 
       email_notifications:
         on_failure:
-          - user@company.com
+          - pierre.brunel@databricks.com
 
       parameters:
         - name: catalog
