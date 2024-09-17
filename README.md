@@ -1,4 +1,4 @@
-# bundle-examples
+# Pierre's bundle-examples
 
 This repository provides Databricks Asset Bundles examples.
 
